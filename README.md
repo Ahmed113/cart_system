@@ -20,6 +20,10 @@ every use case is separated from the other one, for the cart we have more than u
 4- `Presentation layer:` here's the UI where users interact, it contains the pages or screens design of the app, in our case we have 2 screens one for showing products in grid view and the other for showing the cart "chosen products" in list view and the items count and the total price in a clickable container shows bottom sheet for checkout it contains a text field for promo code for the users that have promo codes
 and a container that contains the details of the chosen items count and total price and price after discount if the user has a promo code, Users can add or delete items through both product screen or cart screen and showing the chosen products with the quantity for each one. the presentation layer also contains the shared widgets that are used in both screens, shared cubits, utils, and the resource for Strings, Assets, font styling, and the app theme.
 
+## Promo codes: 
+
+You can use these promo codes for testing: [DISCOUNT10, SALE20, WELCOME5, BLACKFRIDAY]
+
 ## Technologies
 
 - Clean architecture: For readable, flexible, and scalable code.
